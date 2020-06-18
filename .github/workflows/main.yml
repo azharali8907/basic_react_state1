@@ -40,4 +40,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build bootcamp2020-azhar-pro2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build api_lecturebootcamp.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
